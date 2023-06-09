@@ -1,0 +1,357 @@
+{
+  "machine_learning": {
+    "description": "this course is about machine learning",
+    "name": "Machine Learning",
+    "topics": {
+      "classification": {
+        "name": "Classification Problems",
+        "module1": {
+          "content": "Classification is used to produce discrete results, classification is used to classify data into some specific categories .for example classifyin e-mails into spam and non-spam categories. Whereas, We use regression analysis when we are dealing with continuous data, for example predicting stock prices at a certain point of time.",
+          "questions": [
+            "What is the difference between classification and regression?"
+          ],
+          "answers": [
+            "Classification is used to produce discrete results, classification is used to classify data into some specific categories .for example classifyin e-mails into spam and non-spam categories. Whereas, We use regression analysis when we are dealing with continuous data, for example predicting stock prices at a certain point of time."
+          ]
+        },
+        "module2": {
+          "content": "There are four parameters will decide performance of the Classification algorithm such as Accuracy, F1 score, Precision, Recall and Specificity.",
+          "questions": [
+            "What are the performance Metrics for classification Problems?"
+          ],
+          "answers": [
+            "There are four parameters will decide performance of the Classification algorithm such as Accuracy, F1 score, Precision, Recall and Specificity."
+          ]
+        },
+        "module3": {
+          "content": "One of the easiest ways to handle missing or corrupted data is to drop those rows or columns or replace them entirely with some other value.There are two useful methods in Pandas first one  is  IsNull(), dropna() will help to find the columns/rows with missing data and drop them, second one is fillna() will replace the wrong values with a placeholder value.",
+          "questions": [
+            "How Do You Handle Missing or Corrupted Data in a Dataset?"
+          ],
+          "answers": [
+            "One of the easiest ways to handle missing or corrupted data is to drop those rows or columns or replace them entirely with some other value.There are two useful methods in Pandas first one  is  IsNull(), dropna() will help to find the columns/rows with missing data and drop them, second one is fillna() will replace the wrong values with a placeholder value."
+          ]
+        },
+        "module4": {
+          "content": "A table with the predicted output versus the expected output is the easiest way to measure the performance of a classification problem,where the output can be of two or more type of classes.",
+          "questions": [
+            "What is mean by Confusion matrix?"
+          ],
+          "answers": [
+            "A table with the predicted output versus the expected output is the easiest way to measure the performance of a classification problem,where the output can be of two or more type of classes."
+          ]
+        }
+      },
+      "clustering": {
+        "name": "clustering Problems",
+        "module1": {
+          "content": "Clustering is very much important as it determines the intrinsic grouping among the unlabeled data present.There are no criteria for a good clustering. It depends on the user, what is the criteria they may use which satisfy their need.For instance, we could be interested in finding representatives for homogeneous groups (data reduction), in finding “natural clusters” and describe their unknown properties (“natural” data types), in finding useful and suitable groupings (“useful” data classes) or in finding unusual data objects (outlier detection). This algorithm must make some assumptions which constitute the similarity of points and each assumption make different and equally valid clusters.",
+          "questions": [
+            "Why Clustering?"
+          ],
+          "answers": [
+            "Clustering is very much important as it determines the intrinsic grouping among the unlabeled data present.There are no criteria for a good clustering. It depends on the user, what is the criteria they may use which satisfy their need. For instance, we could be interested in finding representatives for homogeneous groups (data reduction), in finding “natural clusters” and describe their unknown properties (“natural” data types), in finding useful and suitable groupings (“useful” data classes) or in finding unusual data objects (outlier detection).This algorithm must make some assumptions which constitute the similarity of points and each assumption make different and equally valid clusters."
+          ]
+        },
+        "module2": {
+          "content": "Clustering problems involve data to be divided into subsets. These subsets, also called clusters, contain data that are similar to each other.Different clusters reveal different details about the objects, unlike classification or regression.",
+          "questions": [
+            "What is mean by Clustering?"
+          ],
+          "answers": [
+            "Clustering problems involve data to be divided into subsets. These subsets, also called clusters, contain data that are similar to each other.Different clusters reveal different details about the objects, unlike classification or regression."
+          ]
+        },
+        "module3": {
+          "content": "Clustering is especially useful for exploring data you know nothing about. It might take some time to figure out which type of clustering algorithm works the best, but when you do, you'll get invaluable insight on your data. You might find connections you never would have thought of.  Some real world applications of clustering include fraud detection in insurance, categorizing books in a library, and customer segmentation in marketing. It can also be used in larger problems, like earthquake analysis or city planning. Clustering has a large no. of applications spread across various domains. Some of the most popular applications of clustering are: Recommendation engines, Market segmentation, Social network analysis, Search result grouping, Medical imaging, Image segmentation and Anomaly detection.",
+          "questions": [
+            "When to use clustering?"
+          ],
+          "answers": [
+            "Clustering is especially useful for exploring data you know nothing about. It might take some time to figure out which type of clustering algorithm works the best, but when you do, you'll get invaluable insight on your data. You might find connections you never would have thought of.  Some real world applications of clustering include fraud detection in insurance, categorizing books in a library, and customer segmentation in marketing. It can also be used in larger problems, like earthquake analysis or city planning. Clustering has a large no. of applications spread across various domains. Some of the most popular applications of clustering are: Recommendation engines, Market segmentation, Social network analysis, Search result grouping, Medical imaging, Image segmentation and Anomaly detection."
+          ]
+        },
+        "module4": {
+          "content": "The following are few limitations with K-Means clustering: Sometimes, it is quite tough to forecast the number of clusters, or the value of k. The output is highly influenced by original input, for example, the number of clusters. An array of data substantially hits the concluding outcomes. In some cases, clusters show complex spatial views, then executing clustering is not a good choice. Also, rescaling is sometimes conscious, it can’t be done by normalization or standardization of data points, the output gets changed entirely.",
+          "questions": [
+            "What are the limitations of K-means algorithm?"
+          ],
+          "answers": [
+            "The following are few limitations with K-Means clustering: Sometimes, it is quite tough to forecast the number of clusters, or the value of k. The output is highly influenced by original input, for example, the number of clusters. An array of data substantially hits the concluding outcomes. In some cases, clusters show complex spatial views, then executing clustering is not a good choice. Also, rescaling is sometimes conscious, it can’t be done by normalization or standardization of data points, the output gets changed entirely."
+          ]
+        },
+        "module5": {
+          "content": "Centroid-based clustering is the one you probably hear about the most. It's a little sensitive to the initial parameters you give it, but it's fast and efficient. These types of algorithms separate data points based on multiple centroids in the data. Each data point is assigned to a cluster based on its squared distance from the centroid. This is the most commonly used type of clustering. K-means clustering is the most commonly used clustering algorithm. It's a centroid-based algorithm and the simplest unsupervised learning algorithm",
+          "questions": [
+            "What is the clustering algorithm developed based on Centroid-based?"
+          ],
+          "answers": [
+            "Centroid-based clustering is the one you probably hear about the most. It's a little sensitive to the initial parameters you give it, but it's fast and efficient. These types of algorithms separate data points based on multiple centroids in the data. Each data point is assigned to a cluster based on its squared distance from the centroid. This is the most commonly used type of clustering. K-means clustering is the most commonly used clustering algorithm. It's a centroid-based algorithm and the simplest unsupervised learning algorithm"
+          ]
+        }
+      },
+      "dimensionality_reduction": {
+        "name": "dimensionality_reduction Problems",
+        "module1": {
+          "content": "In Machine Learning and statistics, dimension reduction is the process of reducing the number of random variables under considerations and can be divided into feature selection and feature extraction. Dimension Reduction is the process of reducing the size of the feature matrix. We try to reduce the number of columns so that we get a better feature set either by combining columns or by removing extra variables.",
+          "questions": [
+            "What is dimension reduction in Machine Learning?"
+          ],
+          "answers": [
+            "In Machine Learning and statistics, dimension reduction is the process of reducing the number of random variables under considerations and can be divided into feature selection and feature extraction. Dimension Reduction is the process of reducing the size of the feature matrix. We try to reduce the number of columns so that we get a better feature set either by combining columns or by removing extra variables."
+          ]
+        },
+        "module2": {
+          "content": "There are various methods used for dimensionality reduction but the most prevalent method in practice is : Principal Component Analysis (PCA). PCA is one of the most successful high dimensional analytics technique. This method was introduced by Karl Pearson. PCA seeks to explain the correlation structure of a set of predictor variables, using a smaller set of linear combinations of these variables. These linear combinations are called components.It means that the total variability of a data set produced by the complete set of m variables can be accounted for by a smaller set of k linear combinations and there is almost as much information in the k components as there is in the original m variables.",
+          "questions": [
+            "Who proposed PCA?"
+          ],
+          "answers": [
+            "There are various methods used for dimensionality reduction but the most prevalent method in practice is : Principal Component Analysis (PCA). PCA is one of the most successful high dimensional analytics technique. This method was introduced by Karl Pearson. PCA seeks to explain the correlation structure of a set of predictor variables, using a smaller set of linear combinations of these variables. These linear combinations are called components.It means that the total variability of a data set produced by the complete set of m variables can be accounted for by a smaller set of k linear combinations and there is almost as much information in the k components as there is in the original m variables."
+          ]
+        },
+        "module3": {
+          "content": "There are various methods used for dimensionality reduction but the most prevalent method in practice is : Principal Component Analysis (PCA). PCA is one of the most successful high dimensional analytics technique. This method was introduced by Karl Pearson. PCA seeks to explain the correlation structure of a set of predictor variables, using a smaller set of linear combinations of these variables. These linear combinations are called components.It means that the total variability of a data set produced by the complete set of m variables can be accounted for by a smaller set of k linear combinations and there is almost as much information in the k components as there is in the original m variables.",
+          "questions": [
+            "How do we perform dimensionality reduction?"
+          ],
+          "answers": [
+            "There are various methods used for dimensionality reduction but the most prevalent method in practice is : Principal Component Analysis (PCA). PCA is one of the most successful high dimensional analytics technique. This method was introduced by Karl Pearson. PCA seeks to explain the correlation structure of a set of predictor variables, using a smaller set of linear combinations of these variables. These linear combinations are called components.It means that the total variability of a data set produced by the complete set of m variables can be accounted for by a smaller set of k linear combinations and there is almost as much information in the k components as there is in the original m variables."
+          ]
+        },
+        "module4": {
+          "content": "Dimensionality reduction is the process of reducing the number of random variables under review, by obtaining a set of principal components. That is the data is converted from a high dimensional space into lower number of dimensions without loosing much of information. An example of dimensionality reduction can be discussed through a simple digital e-mail marketing classification problem, where we need to classify whether the e-mail is spam or not. This can involve a large number of features, such as whether or not the e-mail has a standard title, the content of the e-mail, whether the e-mail uses a personalised template, etc.Hence, we can reduce the number of features in such problems. A 3-D classification problem can be hard to visualize, whereas a 2-D one can be mapped to a simple 2 dimensional space, and a 1-D problem to a simple line. There are two components of dimensionality reduction Feature selection and Feature extraction. Feature selection: In this, we try to find a subset of the original set of variables, or features, to get a smaller subset which can be used to model the problem.",
+          "questions": [
+            "What are the components of dimensionality reduction?"
+          ],
+          "answers": [
+            "Dimensionality reduction is the process of reducing the number of random variables under review, by obtaining a set of principal components. That is the data is converted from a high dimensional space into lower number of dimensions without loosing much of information. An example of dimensionality reduction can be discussed through a simple digital e-mail marketing classification problem, where we need to classify whether the e-mail is spam or not. This can involve a large number of features, such as whether or not the e-mail has a standard title, the content of the e-mail, whether the e-mail uses a personalised template, etc.Hence, we can reduce the number of features in such problems. A 3-D classification problem can be hard to visualize, whereas a 2-D one can be mapped to a simple 2 dimensional space, and a 1-D problem to a simple line. There are two components of dimensionality reduction Feature selection and Feature extraction. Feature selection: In this, we try to find a subset of the original set of variables, or features, to get a smaller subset which can be used to model the problem."
+          ]
+        },
+        "module5": {
+          "content": "Dimensionality Reduction helps in data compression, and hence reduced storage space.It reduces computation time. It also helps remove redundant features, if any. Dimensionality Reduction helps in data compressing and reducing the storage space required It fastens the time required for performing the same computations. If there present fewer dimensions then it leads to less computing. Also, dimensions can allow usage of algorithms unfit for a large number of dimensions. It takes care of multicollinearity that improves model performance. It removes redundant features.",
+          "questions": [
+            "What are the advantages of Dimensionality Reduction?"
+          ],
+          "answers": [
+            "Dimensionality Reduction helps in data compression, and hence reduced storage space.It reduces computation time. It also helps remove redundant features, if any. Dimensionality Reduction helps in data compressing and reducing the storage space required It fastens the time required for performing the same computations. If there present fewer dimensions then it leads to less computing. Also, dimensions can allow usage of algorithms unfit for a large number of dimensions. It takes care of multicollinearity that improves model performance. It removes redundant features."
+          ]
+        }
+      },
+      "regression": {
+        "name": "regression Problems",
+        "module1": {
+          "content": "There are four techniques to evaluate the performance of the regression algorithm such as Mean Absolute Error (MAE), Mean Square Error (MSE), Suma of Squared(SSE) and  R Squared.",
+          "questions": [
+            "What are the performance Metrics for Regression Problems?"
+          ],
+          "answers": [
+            "There are four techniques to evaluate the performance of the regression algorithm such as Mean Absolute Error (MAE), Mean Square Error (MSE), Suma of Squared(SSE) and  R Squared."
+          ]
+        },
+        "module2": {
+          "content": "Linear regression, Logistic regression, Ridge regression, Lasso regression, Polynomial regression, stepwise regression and ElasticNet regression.",
+          "questions": [
+            "What are the types of regression techniques?"
+          ],
+          "answers": [
+            "Linear regression, Logistic regression, Ridge regression, Lasso regression, Polynomial regression, stepwise regression and ElasticNet regression."
+          ]
+        },
+        "module3": {
+          "content": "In simple terms, linear regression is a method of finding the best straight line fitting to the given data, i.e. finding the best linear relationship between the independent and dependent variables. In technical terms, linear regression is a machine learning algorithm that finds the best linear-fit relationship on any given data, between independent and dependent variables. It is mostly done by the Sum of Squared Residuals Method.",
+          "questions": [
+            "What is linear regression?"
+          ],
+          "answers": [
+            "In simple terms, linear regression is a method of finding the best straight line fitting to the given data, i.e. finding the best linear relationship between the independent and dependent variables. In technical terms, linear regression is a machine learning algorithm that finds the best linear-fit relationship on any given data, between independent and dependent variables. It is mostly done by the Sum of Squared Residuals Method."
+          ]
+        },
+        "module4": {
+          "content": "One can use linear regression for time series analysis, but the results are not promising. So, it is generally not advisable to do so. Time series data is mostly used for the prediction of the future, but linear regression seldom gives good results for future prediction as it is not meant for extrapolation. Mostly, time series data have a pattern, such as during peak hours, festive seasons, etc., which would most likely be treated as outliers in the linear regression analysis.",
+          "questions": [
+            "Can we use linear regression for time series analysis?"
+          ],
+          "answers": [
+            "One can use linear regression for time series analysis, but the results are not promising. So, it is generally not advisable to do so. Time series data is mostly used for the prediction of the future, but linear regression seldom gives good results for future prediction as it is not meant for extrapolation. Mostly, time series data have a pattern, such as during peak hours, festive seasons, etc., which would most likely be treated as outliers in the linear regression analysis."
+          ]
+        },
+        "module5": {
+          "content": "It is also called simple linear regression. It establishes the relationship between two variables using a straight line. Linear regression attempts to draw a line that comes closest to the data by finding the slope and intercept that define the line and minimize regression errors. It is rare that a dependent variable is explained by only one variable. In this case, an analyst uses multiple regression, which attempts to explain a dependent variable using more than one independent variable. Multiple regressions can be linear and nonlinear.",
+          "questions": [
+            "What are the differences between Linear Regression and Multiple Regression?"
+          ],
+          "answers": [
+            "It is also called simple linear regression. It establishes the relationship between two variables using a straight line. Linear regression attempts to draw a line that comes closest to the data by finding the slope and intercept that define the line and minimize regression errors. It is rare that a dependent variable is explained by only one variable. In this case, an analyst uses multiple regression, which attempts to explain a dependent variable using more than one independent variable. Multiple regressions can be linear and nonlinear."
+          ]
+        }
+      },
+      "supervised_learning": {
+        "name": "supervised_learning Problems",
+        "module1": {
+          "content": "Supervised learning is requires training labeled datas. For example, in order to the classification (a supervised learning task), you’ll need to the first label the data you’ll use to the train the model to classify data into your labeled groups. Unsupervised learning, in contrast, does not a require labeling data explicitly.",
+          "questions": [
+            "What is the Difference Between Supervised and Unsupervised Machine Learning?"
+          ],
+          "answers": [
+            "Supervised learning is requires training labeled datas. For example, in order to the classification (a supervised learning task), you’ll need to the first label the data you’ll use to the train the model to classify data into your labeled groups. Unsupervised learning, in contrast, does not a require labeling data explicitly."
+          ]
+        },
+        "module2": {
+          "content": "Overfitting is a situation that occurs when a model learns the training set too well, taking up random fluctuations in the training data as concepts. These impact the model’s ability to generalize and don’t apply to new data. When a model is given the training data, it shows 100 percent accuracy—technically a slight loss. But, when we use the test data, there may be an error and low efficiency. This condition is known as overfitting. There are multiple ways of avoiding overfitting, such as Regularization, Cross-validation methods like k-folds and making a simple model with lesser variables, parameters, the variance can be reduced.",
+          "questions": [
+            "What is Overfitting, and How Can You Avoid It?"
+          ],
+          "answers": [
+            "Overfitting is a situation that occurs when a model learns the training set too well, taking up random fluctuations in the training data as concepts. These impact the model’s ability to generalize and don’t apply to new data. When a model is given the training data, it shows 100 percent accuracy—technically a slight loss. But, when we use the test data, there may be an error and low efficiency. This condition is known as overfitting. There are multiple ways of avoiding overfitting, such as Regularization, Cross-validation methods like k-folds and making a simple model with lesser variables, parameters, the variance can be reduced."
+          ]
+        },
+        "module3": {
+          "content": "Supervised learning is where you have input variables (x) and an output variable (Y) and you use an algorithm to learn the mapping function from the input to the output. The goal is to approximate the mapping function so well that when you have new input data (x) that you can predict the output variables (Y) for that data. It is called supervised learning because the process of an algorithm learning from the training dataset can be thought of as a teacher supervising the learning process.",
+          "questions": [
+            "What is mean by supervised learning?"
+          ],
+          "answers": [
+            "Supervised learning is where you have input variables (x) and an output variable (Y) and you use an algorithm to learn the mapping function from the input to the output. The goal is to approximate the mapping function so well that when you have new input data (x) that you can predict the output variables (Y) for that data. It is called supervised learning because the process of an algorithm learning from the training dataset can be thought of as a teacher supervising the learning process."
+          ]
+        },
+        "module4": {
+          "content": "Supervised learning is requires training labeled datas. For example, in order to the classification (a supervised learning task), you’ll need to the first label the data you’ll use to the train the model to classify data into your labeled groups. Unsupervised learning, in contrast, does not a require labeling data explicitly.",
+          "questions": [
+            "What is the Difference Between Supervised and Unsupervised Machine Learning?"
+          ],
+          "answers": [
+            "Supervised learning is requires training labeled datas. For example, in order to the classification (a supervised learning task), you’ll need to the first label the data you’ll use to the train the model to classify data into your labeled groups. Unsupervised learning, in contrast, does not a require labeling data explicitly."
+          ]
+        },
+        "module5": {
+          "content": "Applications of supervised machine learning include Email Spam Detection, Healthcare Diagnosis, Sentiment Analysis and Fraud Detection.",
+          "questions": [
+            "What Are the Applications of Supervised Machine Learning in Modern Businesses?"
+          ],
+          "answers": [
+            "Applications of supervised machine learning include Email Spam Detection, Healthcare Diagnosis, Sentiment Analysis and Fraud Detection."
+          ]
+        }
+      }
+    }
+  }
+},
+
+{
+  "networks": {
+    "description": "this course is about networks",
+    "name": "networks basics",
+    "topics": {
+      "networks_basics": {
+        "name": "network basics",
+        "module1": {
+          "content": "A system of interconnected computers and computerized peripherals such as printers is called computer network. This interconnection among computers facilitates information sharing among them. Computers may connect to each other by either wired or wireless media.",
+          "questions": ["What is mean by computer networks?"],
+          "answers" : ["A system of interconnected computers and computerized peripherals such as printers is called computer network. This interconnection among computers facilitates information sharing among them. Computers may connect to each other by either wired or wireless media."]
+        },
+        "module2": {
+          "content": "OSI Model: Open System Interconnect is an open standard for all communication systems. OSI model is established by International Standard Organization (ISO). This model has seven layers: Application Layer: This layer is responsible for providing interface to the application user. This layer encompasses protocols which directly interact with the user. Presentation Layer: This layer defines how data in the native format of remote host should be presented in the native format of host. Session Layer: This layer maintains sessions between remote hosts. For example, once user/password authentication is done, the remote host maintains this session for a while and does not ask for authentication again in that time span. Transport Layer: This layer is responsible for end-to-end delivery between hosts. Network Layer: This layer is responsible for address assignment and uniquely addressing hosts in a network. Data Link Layer: This layer is responsible for reading and writing data from and onto the line. Link errors are detected at this layer. Physical Layer: This layer defines the hardware, cabling wiring, power output, pulse rate etc.",
+          "questions": ["How many layers in OSI Model?"],
+          "answers": ["OSI Model: Open System Interconnect is an open standard for all communication systems. OSI model is established by International Standard Organization (ISO). This model has seven layers: Application Layer: This layer is responsible for providing interface to the application user. This layer encompasses protocols which directly interact with the user. Presentation Layer: This layer defines how data in the native format of remote host should be presented in the native format of host. Session Layer: This layer maintains sessions between remote hosts. For example, once user/password authentication is done, the remote host maintains this session for a while and does not ask for authentication again in that time span. Transport Layer: This layer is responsible for end-to-end delivery between hosts. Network Layer: This layer is responsible for address assignment and uniquely addressing hosts in a network. Data Link Layer: This layer is responsible for reading and writing data from and onto the line. Link errors are detected at this layer. Physical Layer: This layer defines the hardware, cabling wiring, power output, pulse rate etc."]
+        },
+      "module3": {
+          "content": "OSI Model: Open System Interconnect is an open standard for all communication systems. OSI model is established by International Standard Organization (ISO). This model has seven layers: Application Layer: This layer is responsible for providing interface to the application user. This layer encompasses protocols which directly interact with the user. Presentation Layer: This layer defines how data in the native format of remote host should be presented in the native format of host. Session Layer: This layer maintains sessions between remote hosts. For example, once user/password authentication is done, the remote host maintains this session for a while and does not ask for authentication again in that time span. Transport Layer: This layer is responsible for end-to-end delivery between hosts. Network Layer: This layer is responsible for address assignment and uniquely addressing hosts in a network. Data Link Layer: This layer is responsible for reading and writing data from and onto the line. Link errors are detected at this layer. Physical Layer: This layer defines the hardware, cabling wiring, power output, pulse rate etc.",
+          "questions": ["What is OSI Model?"],
+          "answers" : ["OSI Model: Open System Interconnect is an open standard for all communication systems. OSI model is established by International Standard Organization (ISO). This model has seven layers: Application Layer: This layer is responsible for providing interface to the application user. This layer encompasses protocols which directly interact with the user. Presentation Layer: This layer defines how data in the native format of remote host should be presented in the native format of host. Session Layer: This layer maintains sessions between remote hosts. For example, once user/password authentication is done, the remote host maintains this session for a while and does not ask for authentication again in that time span. Transport Layer: This layer is responsible for end-to-end delivery between hosts. Network Layer: This layer is responsible for address assignment and uniquely addressing hosts in a network. Data Link Layer: This layer is responsible for reading and writing data from and onto the line. Link errors are detected at this layer. Physical Layer: This layer defines the hardware, cabling wiring, power output, pulse rate etc."]
+        },
+      "module4": {
+          "content": "Internet Model: Internet uses TCP/IP protocol suite, also known as Internet suite. This defines Internet Model which contains four layered architecture. OSI Model is general communication model but Internet Model is what the internet uses for all its communication.The internet is independent of its underlying network architecture so is its Model. This model has the four layers: Application Layer: This layer defines the protocol which enables user to interact with the network.For example, FTP, HTTP etc. Transport Layer: This layer defines how data should flow between hosts. Major protocol at this layer is Transmission Control Protocol (TCP). This layer ensures data delivered between hosts is in-order and is responsible for end-to-end delivery. Internet Layer: Internet Protocol (IP) works on this layer. This layer facilitates host addressing and recognition. This layer defines routing. Link Layer: This layer provides mechanism of sending and receiving actual data.Unlike its OSI Model counterpart, this layer is independent of underlying network architecture and hardware.",
+          "questions": ["How many layers in Internet Model?"],
+          "answers" : ["Internet Model: Internet uses TCP/IP protocol suite, also known as Internet suite. This defines Internet Model which contains four layered architecture. OSI Model is general communication model but Internet Model is what the internet uses for all its communication.The internet is independent of its underlying network architecture so is its Model. This model has the four layers: Application Layer: This layer defines the protocol which enables user to interact with the network.For example, FTP, HTTP etc. Transport Layer: This layer defines how data should flow between hosts. Major protocol at this layer is Transmission Control Protocol (TCP). This layer ensures data delivered between hosts is in-order and is responsible for end-to-end delivery. Internet Layer: Internet Protocol (IP) works on this layer. This layer facilitates host addressing and recognition. This layer defines routing. Link Layer: This layer provides mechanism of sending and receiving actual data.Unlike its OSI Model counterpart, this layer is independent of underlying network architecture and hardware."]
+        }
+      },
+      "datalink_layer": {
+        "name": "datalink",
+        "module1": {
+          "content": "Data Link Layer is second layer of OSI Layered Model. This layer is one of the most complicated layers and has complex functionalities and liabilities.Data link layer hides the details of underlying hardware and represents itself to upper layer as the medium to communicate.",
+          "questions": ["What is the second layer of OSI Layered Model?"],
+          "answers" : ["Data Link Layer is second layer of OSI Layered Model. This layer is one of the most complicated layers and has complex functionalities and liabilities.Data link layer hides the details of underlying hardware and represents itself to upper layer as the medium to communicate."]
+        },
+        "module2": {
+          "content": "Data link layer is responsible for converting data stream to signals bit by bit and to send that over the underlying hardware. At the receiving end, Data link layer picks up data from hardware which are in the form of electrical signals, assembles them in a recognizable frame format, and hands over to upper layer.",
+          "questions": ["What is the responsibility of Data link layer?"],
+          "answers" : ["Data link layer is responsible for converting data stream to signals bit by bit and to send that over the underlying hardware. At the receiving end, Data link layer picks up data from hardware which are in the form of electrical signals, assembles them in a recognizable frame format, and hands over to upper layer."]
+        },
+        "module3": {
+          "content": "Data link layer does many tasks on behalf of upper layer. Framing, Addressing, Synchronization, Error Control, Flow Control and Multi-Access.",
+          "questions": ["What are the functionality of Data-link Layer?"],
+          "answers" : ["Data link layer does many tasks on behalf of upper layer. Framing, Addressing, Synchronization, Error Control, Flow Control and Multi-Access."]
+        },
+        "module4": {
+          "content": "Errors in the received frames are detected by means of Parity Check and Cyclic Redundancy Check (CRC). In both cases, few extra bits are sent along with actual data to confirm that bits received at other end are same as they were sent. If the counter-check at receiver’ end fails, the bits are considered corrupted.",
+          "questions": ["What is Error Detection?"],
+          "answers" : ["Errors in the received frames are detected by means of Parity Check and Cyclic Redundancy Check (CRC). In both cases, few extra bits are sent along with actual data to confirm that bits received at other end are same as they were sent. If the counter-check at receiver’ end fails, the bits are considered corrupted."]
+        },
+        "module5": {
+          "content": "In the digital world, error correction can be done in two ways: Backward Error Correction  When the receiver detects an error in the data received, it requests back the sender to retransmit the data unit. Forward Error Correction  When the receiver detects some error in the data received, it executes error-correcting code, which helps it to auto-recover and to correct some kinds of errors.",
+          "questions": ["How many ways error correction can be done? What are those error correction techniques?"],
+          "answers" : ["In the digital world, error correction can be done in two ways: Backward Error Correction  When the receiver detects an error in the data received, it requests back the sender to retransmit the data unit. Forward Error Correction  When the receiver detects some error in the data received, it executes error-correcting code, which helps it to auto-recover and to correct some kinds of errors."]
+        }
+      },
+      "network layer": {
+        "name": "network layer Problems",
+        "module1": {
+          "content": "Layer-3 in the OSI model is called Network layer. Network layer manages options pertaining to host and network addressing, managing sub-networks, and internet working.Network layer takes the responsibility for routing packets from source to destination within or outside a subnet. Two different subnet  may have different addressing schemes or non-compatible addressing types. Same with protocols, two different subnet may be operating on different  protocols which are not compatible with each other. Network layer has the responsibility to route the packets from source to destination, mapping  different addressing schemes and protocols.",
+          "questions": ["What is the third layer in OSI model architecture?"],
+          "answers" : ["Layer-3 in the OSI model is called Network layer. Network layer manages options pertaining to host and network addressing, managing sub-networks, and internet working.Network layer takes the responsibility for routing packets from source to destination within or outside a subnet. Two different subnet  may have different addressing schemes or non-compatible addressing types. Same with protocols, two different subnet may be operating on different  protocols which are not compatible with each other. Network layer has the responsibility to route the packets from source to destination, mapping  different addressing schemes and protocols."]
+        },
+        "module2": {
+          "content": "Devices which work on Network Layer mainly focus on routing. Routing may include various tasks aimed to achieve a single goal. These can be: Addressing devices and networks. Populating routing tables or static routes. Queuing incoming and outgoing data and then forwarding them according to quality of service constraints set for those packets. Internet working between two different subnets. Delivering packets to destination with best efforts. Provides connection oriented and connection less mechanism.",
+          "questions": ["What are the functionalities of network layer?"],
+          "answers" : ["Devices which work on Network Layer mainly focus on routing. Routing may include various tasks aimed to achieve a single goal. These can be: Addressing devices and networks. Populating routing tables or static routes. Queuing incoming and outgoing data and then forwarding them according to quality of service constraints set for those packets. Internet working between two different subnets. Delivering packets to destination with best efforts. Provides connection oriented and connection less mechanism."]
+        },
+        "module3": {
+          "content": "Quality of service management, Load balancing and link management, Security, Interrelation of different protocols and subnets with different schema. Different logical network design over the physical network design. L3 VPN and tunnels can be used to provide end to end dedicated connectivity.",
+          "questions": ["What are features of network layer?"],
+          "answers" : ["Quality of service management, Load balancing and link management, Security, Interrelation of different protocols and subnets with different schema. Different logical network design over the physical network design. L3 VPN and tunnels can be used to provide end to end dedicated connectivity."]
+        },
+        "module4": {
+          "content": "Network address can be of classified as 4 types: Uni-cast (destined to one host), Multicast (destined to group), Broadcast (destined to all),Any-cast (destined to nearest one)",
+          "questions": ["How many types of network address are there  in network layer?"],
+          "answers" : ["Network address can be of classified as 4 types: Uni-cast (destined to one host), Multicast (destined to group), Broadcast (destined to all),Any-cast (destined to nearest one)"]
+        },
+        "module5": {
+          "content": "Network address can be of classified as 4 types: Uni-cast (destined to one host), Multicast (destined to group), Broadcast (destined to all),Any-cast (destined to nearest one)",
+          "questions": ["What are the network address presented in network layer?"],
+          "answers" : ["Network address can be of classified as 4 types: Uni-cast (destined to one host), Multicast (destined to group), Broadcast (destined to all),Any-cast (destined to nearest one)"]
+        }
+      },
+      "physical layer": {
+        "name": "physical_layer",
+        "module1": {
+          "content": "Physical layer in the OSI model plays the role of interacting with actual hardware and signaling mechanism. Physical layer is the only layer of OSI network model which actually deals with the physical connectivity of two different stations. This layer defines the hardware equipment, cabling, wiring, frequencies, pulses used to represent binary signals etc. Physical layer provides its services to Data-link layer. Data-link layer hands over frames to physical layer. Physical layer converts them to electrical pulses, which represent binary data.The binary data is then sent over the wired or wireless media.",
+          "questions": ["Which layer is received services from physical layer?"],
+          "answers" : ["Physical layer in the OSI model plays the role of interacting with actual hardware and signaling mechanism. Physical layer is the only layer of OSI network model which actually deals with the physical connectivity of two different stations. This layer defines the hardware equipment, cabling, wiring, frequencies, pulses used to represent binary signals etc. Physical layer provides its services to Data-link layer. Data-link layer hands over frames to physical layer. Physical layer converts them to electrical pulses, which represent binary data.The binary data is then sent over the wired or wireless media."]
+        },
+        "module2": {
+          "content": "Multiplexing is a technique to mix and send multiple data streams over a single medium. This technique requires system hardware called multiplexer (MUX)  for multiplexing the streams and sending them on a medium, and de-multiplexer (DMUX) which takes information from the medium and distributes to different  destinations. Data or information can be stored in two ways, analog and digital. For a computer to use the data, it must be in discrete digital form.  Similar to data, signals can also be in analog and digital form. To transmit data digitally, it needs to be first converted to digital form.",
+          "questions": ["What  is Multiplexing?"],
+          "answers" : ["Multiplexing is a technique to mix and send multiple data streams over a single medium. This technique requires system hardware called multiplexer (MUX)  for multiplexing the streams and sending them on a medium, and de-multiplexer (DMUX) which takes information from the medium and distributes to different  destinations. Data or information can be stored in two ways, analog and digital. For a computer to use the data, it must be in discrete digital form.  Similar to data, signals can also be in analog and digital form. To transmit data digitally, it needs to be first converted to digital form."]
+        },
+        "module3": {
+          "content": " Microphones create analog voice and camera creates analog videos, which are treated is analog data. To transmit this analog data over digital signals,  we need analog to digital conversion. Analog data is a continuous stream of data in the wave form whereas digital data is discrete.  To convert analog wave into digital data, we use Pulse Code Modulation (PCM).",
+          "questions": ["What is Analog-to-Digital Conversion?"],
+          "answers" : [" Microphones create analog voice and camera creates analog videos, which are treated is analog data. To transmit this analog data over digital signals,  we need analog to digital conversion. Analog data is a continuous stream of data in the wave form whereas digital data is discrete.  To convert analog wave into digital data, we use Pulse Code Modulation (PCM)."]
+        },
+        "module4": {
+          "content": "In this modulation, the amplitude of the carrier signal is modified to reflect the analog data. Amplitude modulation is implemented by means of a  multiplier. The amplitude of modulating signal (analog data) is multiplied by the amplitude of carrier frequency, which then reflects analog data.",
+          "questions": ["What is Amplitude Modulation?"],
+          "answers" : ["In this modulation, the amplitude of the carrier signal is modified to reflect the analog data. Amplitude modulation is implemented by means of a  multiplier. The amplitude of modulating signal (analog data) is multiplied by the amplitude of carrier frequency, which then reflects analog data."]
+        },
+        "module5": {
+          "content": "In the modulation technique, the phase of carrier signal is modulated in order to reflect the change in voltage (amplitude) of analog data signal. Phase modulation is practically similar to Frequency Modulation, but in Phase modulation frequency of the carrier signal is not increased. Frequency of carrier is signal is changed (made dense and sparse) to reflect voltage change in the amplitude of modulating signal.",
+          "questions": ["What is Phase Modulation?"],
+          "answers" : ["In the modulation technique, the phase of carrier signal is modulated in order to reflect the change in voltage (amplitude) of analog data signal. Phase modulation is practically similar to Frequency Modulation, but in Phase modulation frequency of the carrier signal is not increased. Frequency of carrier is signal is changed (made dense and sparse) to reflect voltage change in the amplitude of modulating signal."]
+        }
+      }
+    }
+
+  }
+},
+

@@ -1,0 +1,86 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <input #searchvideo type="text" [(ngModel)]="videovalue"> <button
+        (click)="searchVideo(searchvideo.videovalue)">Search video</button>
+    </div>
+    <div class="col-sm-4">
+      <input #searchweb type="text" [(ngModel)]="value"> <button (click)="searchWeb(searchweb.value)">Search
+        Web</button>
+    </div>
+    <div class="col-sm-4">
+      <button (click)="sendContent(selectedModule.content)">Get Abstract</button>
+    </div>
+  </div>
+</div>
+<mat-sidenav-container class="example-container" autosize>
+  <mat-sidenav class="side-nav" mode="side" opened position="start">
+    <div class="container navText">
+      <span>Contents</span>
+    </div>
+    <hr>
+    <div>
+      <mat-nav-list class="listNav">
+        <div>
+          <mat-list-item>
+            <div class="content">
+              <div class="row" *ngFor="let module of moduleNames">
+                <div class="navContent">
+                  <b> <a href="javascript:void(0);" (click)="openModule(module.key)">{{module.name}}</a></b>
+                </div>
+              </div>
+            </div>
+          </mat-list-item>
+        </div>
+      </mat-nav-list>
+    </div>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <div class="col-sm-10 ml-3">
+      <div class="row">&nbsp;</div>
+      <div class="row">{{selectedModule?.content}}</div>
+    </div>
+    <div class="col-sm-10 ml-3" *ngFor="let question of selectedModule?.questions">
+      <br />
+      <p id=question-{{index}}><b>{{question}}</b></p>
+    </div>
+    <div class="col-sm-10 ml-3" *ngFor="let answer of selectedModule?.inputAnswers;let index=index">
+      <input id=answer-{{index}} type="text" style="width: 1000px;" (keyup)="_keyUp($event)"
+        [(ngModel)]="selectedModule?.inputAnswers[index]">
+    </div>
+    <div>&nbsp;</div>
+    <div><button id="submit">Submit</button></div>
+    <div *ngIf="showWebResult">
+      <a href="javascript:void(0);" (click)="removeWebResults('link')">close</a>
+      <ul>
+        <li *ngFor="let link of webLinks?.web_url_results"><a [href]="link" target="_blank">{{link}}</a></li>
+      </ul>
+    </div>
+    <div *ngIf="showVideo">
+      <a href="javascript:void(0);" (click)="removeWebResults('video')">close</a>
+      <p>Video Results Will shown below soon...</p>
+      <div *ngFor="let video of webVideoLinks?.youtube_results">
+
+        <video width="400" controls>
+          <source [src]="video" type="video/mp4">
+        </video>
+      </div>
+    </div>
+    <div *ngIf="showAbstract">
+      <a href="javascript:void(0);" (click)="removeWebResults('abstract')">close</a>
+      <p>{{abstract?.summary}}</p>
+    </div>
+    <div *ngIf="showResult=='correct'">
+      <div class="col-sm-4">
+        <p style="background-color:rgb(30, 211, 24);">"You are correct"</p>
+      </div>
+      <div class="col-sm-4">Confidence {{confidence}}</div>
+    </div>
+    <div *ngIf="showResult=='incorrect'">
+      <div class="col-sm-4">
+        <p style="background-color:rgb(243, 19, 67);">"You are wrong!"</p>
+      </div>
+      <div class="col-sm-4">Confidence {{confidence}}</div>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

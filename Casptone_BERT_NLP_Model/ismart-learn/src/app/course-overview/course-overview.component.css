@@ -1,0 +1,17 @@
+.name{
+    color:  #3366ff;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.notes{
+    margin-top: 10px;
+}
+
+a{
+
+    color: #33cc33;
+    font-style: italic;
+    text-decoration: underline;
+}

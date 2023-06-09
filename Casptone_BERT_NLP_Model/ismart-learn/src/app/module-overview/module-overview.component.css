@@ -1,0 +1,26 @@
+.side-nav{
+    background-color:  #000066;
+    width: 240px;
+    padding: 15px;
+    color: white;
+}
+
+.navText{
+    font-size:24px;
+    text-align: center;
+}
+
+.example-container {
+    width: 100%;
+    height: 55%;  
+    /* border: 1px solid rgba(0, 0, 0, 0.5); */
+  }
+
+.navContent{
+    color: white;
+    text-decoration: none;
+  }
+
+ #submit{     
+ margin: 0 0 0 269px;
+ }

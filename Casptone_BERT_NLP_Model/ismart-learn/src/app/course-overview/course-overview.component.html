@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="row" *ngFor="let modName of moduleNames">
+    <div class="col-sm-6 name"><b>{{modName?.name}}</b></div>
+    <div class="col-sm-4"><a routerLink='/module-overview' [queryParams]="{content:modName?.key}">Go to Course</a></div>
+    <div class="col-sm-12 notes">{{modName?.desc}}</div>
+  </div>
+  <div>
+    &nbsp;
+  </div>
+</div>
